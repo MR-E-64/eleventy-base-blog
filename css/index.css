@@ -7,18 +7,31 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  --pink: #f5539c;
+  --lightblue: #00e6fe;
 }
 * {
   box-sizing: border-box;
 }
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: system-ui, sans-serif;
   color: var(--darkgray);
-  background-color: var(--white);
+  background-image: url('./img/Donut_Wall_20.png');
+  background-repeat: repeat;
+  background-size: 35%;
 }
+/*
+.back {
+  background-color:var(--white);
+  background-repeat: repeat;
+  background-size: 35%;
+}
+*/
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -44,7 +57,9 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  border-bottom: 3px solid var(--pink);
+  background-color: var(--lightblue);
+  
 }
 header:after {
   content: "";
@@ -117,9 +132,10 @@ pre {
 /* Header */
 .home {
   padding: 0 1rem;
+  border-right: solid var(--pink);
   float: left;
   margin: 1rem 0; /* 16px /16 */
-  font-size: 1em; /* 16px /16 */
+  font-size: 1.5em; /* 16px /16 */
 }
 .home :link:not(:hover) {
   text-decoration: none;
@@ -127,17 +143,19 @@ pre {
 
 /* Nav */
 .nav {
-  padding: 0;
+  padding-left: 0;
   list-style: none;
   float: left;
   margin-left: 1em;
+  
 }
 .nav-item {
-  display: inline-block;
+  display:inline-block;
   margin-right: 1em;
 }
 .nav-item a[href]:not(:hover) {
-  text-decoration: none;
+  text-decoration: yellow;
+  color: var(--pink);
 }
 .nav-item-active {
   font-weight: 700;

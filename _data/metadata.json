@@ -1,20 +1,20 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "title": "F🍩 🍩 D",
+  "url": "https://silly-bartik-6a3eda.netlify.app",
+  "description": "This is a testing ground for my learning adventure",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Lets see what happens...",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://silly-bartik-6a3eda.netlify.app"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://silly-bartik-6a3eda.netlify.app/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "MR-E-64",
+    "email": "n/a",
+    "url": "https://silly-bartik-6a3eda.netlify.app/about-me/"
   }
 }

@@ -20,10 +20,29 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: var(--darkgray);
-  background-image: url('./img/Donut_Wall_20.png');
+  background-image: url('./img/Donut_Wall_20_Small.png');
   background-repeat: repeat;
-  background-size: 35%;
+  background-size: contain;
+  background-position: center;
 }
+
+
+.centralise {
+  text-align: center;
+}
+
+
+.shrinkCenter {
+  padding-left: 30%;
+}
+
+.shrink {
+  border-style: dotted;
+  border-color: var(--pink);
+  width: 500px;
+  text-align: center;
+}
+
 /*
 .back {
   background-color:var(--white);
@@ -241,4 +260,8 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+.spice {
+  min-width: 200px;
 }

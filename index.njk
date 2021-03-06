@@ -4,15 +4,25 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-<img src=img/Blog_Logo.png>
-{% set maxPosts = collections.posts.length | min(3) %}
-<h3>The latest {% if maxPosts == 3 %}Post...{% else %}{{ maxPosts }} Posts...{% endif %}</h3>
+<section>
+    <div class="centralise">
+      <img src=img/Blog_Logo.png>
+    </div>
+      <div class="shrinkCenter">
+        <br>
+        <br>
+        <br>
+        <br>
+          <div class="shrink">
+            {% set maxPosts = collections.posts.length | min(3) %}
+              <h3>The latest {% if maxPosts == 3 %}Post...{% else %}{{ maxPosts }} Posts...{% endif %}</h3>
 
-
-{% set postslist = collections.posts | head(-3) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
-
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">All Recipes</a>.</p><br>
+                {% set postslist = collections.posts | head(-3) %}
+                {% set postslistCounter = collections.posts | length %}
+                {% include "postslist.njk" %}
+                  <p>More posts can be found in <a href="{{ '/posts/' | url }}">All Recipes</a>.</p><br>
+        </div>  
+         
+</section>
 
 

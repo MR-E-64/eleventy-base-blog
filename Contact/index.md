@@ -13,7 +13,7 @@ eleventyNavigation:
     <label>Your Name: <input type="text " name="name" pattern="[a-zA-Z0-9!?,.]{0,30}" placeholder="Type here" maxlength="40" required/></label>   
   </p>
   <p>
-    <label>Your Email: <input type="email" name="email" pattern="[a-zA-Z0-9!?,.]{0,30}" placeholder="Type here" maxlength="40" required/></label>
+    <label>Your Email: <input type="email" name="email" placeholder="Type here" maxlength="40" required/></label>
   </p>
   <p>
     <div class="form-check">

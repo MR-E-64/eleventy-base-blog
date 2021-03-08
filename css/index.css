@@ -26,15 +26,14 @@ body {
   background-position: center;
 }
 
-
+/*
 .centralise {
   text-align: center;
 }
-
-
 .shrinkCenter {
   padding-left: 30%;
 }
+*/
 
 .shrink {
   border-style: dotted;

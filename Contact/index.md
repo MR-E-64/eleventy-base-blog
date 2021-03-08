@@ -10,10 +10,10 @@ eleventyNavigation:
 
 <form name="contact" method="POST" data-netlify="true">
   <p>
-    <label>Your Name: <input type="text " name="name" pattern="[a-zA-Z0-9!?,.]{30}" placeholder="Type here" maxlength="40" required/></label>   
+    <label>Your Name: <input type="text " name="name" pattern="[a-zA-Z0-9!?,.]{0,30}" placeholder="Type here" maxlength="40" required/></label>   
   </p>
   <p>
-    <label>Your Email: <input type="email" name="email" pattern="[a-zA-Z0-9!?,.]{30}" placeholder="Type here" maxlength="40" required/></label>
+    <label>Your Email: <input type="email" name="email" pattern="[a-zA-Z0-9!?,.]{0,30}" placeholder="Type here" maxlength="40" required/></label>
   </p>
   <p>
     <div class="form-check">
@@ -45,7 +45,7 @@ eleventyNavigation:
     -->
   </p>
   <p>
-    <label>Message: <textarea name="message" pattern="[a-zA-Z0-9!?,.]{40}" placeholder="Please write more info here."></textarea></label>
+    <label>Message: <textarea name="message" pattern="[a-zA-Z0-9!?,.]{0,40}" placeholder="Please write more info here."></textarea></label>
   </p>
   <p>
     <button type="submit">Send</button>

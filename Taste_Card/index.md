@@ -51,6 +51,8 @@ eleventyNavigation:
             </ul>
           </div>
           <div class="card-footer">
+          <a href="/img/Barharat.pdf" download>Download Taste Card.
+            </a>
           </div>
         </div>
       </div>
@@ -74,6 +76,8 @@ eleventyNavigation:
             </ul>
           </div>
           <div class="card-footer">
+          <a href="/img/Ras el Hanout.pdf" download>Download Taste Card.
+            </a>
           </div>
         </div>
       </div>
@@ -96,6 +100,8 @@ eleventyNavigation:
             </ul>
           </div>
           <div class="card-footer">
+          <a href="/img/Adobo.pdf" download>Download Taste Card.
+            </a>
           </div>
         </div>
       </div>
@@ -120,6 +126,8 @@ eleventyNavigation:
             </ul>
           </div>
           <div class="card-footer">
+          <a href="/img/Cajun.pdf" download>Download Taste Card.
+            </a>
           </div>
         </div>
       </div>
@@ -138,6 +146,8 @@ eleventyNavigation:
             </ul>
           </div>
           <div class="card-footer">
+          <a href="/img/Merken.pdf" download>Download Taste Card.
+            </a>
           </div>
         </div>
       </div>
@@ -159,6 +169,8 @@ eleventyNavigation:
             </ul>
             </div>
             <div class="card-footer">
+            <a href="/img/Greek Style Blend.pdf" download>Download Taste Card.
+            </a>
             </div>
         </div>
       </div>
@@ -180,6 +192,8 @@ eleventyNavigation:
             </ul>
           </div>
           <div class="card-footer">
+          <a href="/img/Italian Style Blend.pdf" download>Download Taste Card.
+            </a>
           </div>
         </div>
       </div>
@@ -201,6 +215,8 @@ eleventyNavigation:
             </ul>
           </div>
           <div class="card-footer">
+          <a href="/img/Garam Masala.pdf" download>Download Taste Card.
+            </a>
           </div>
         </div>
       </div>
@@ -222,6 +238,8 @@ eleventyNavigation:
             </ul>
           </div>
           <div class="card-footer">
+          <a href="/img/Thai style Blend.pdf" download>Download Taste Card.
+            </a>
           </div>
         </div>
       </div>

@@ -71,11 +71,3 @@ p {
     <button class="sendBtn" type="submit">Send</button>
   </p>
 </form>
-<script>
-var button = document.getElementById("sendBtn");
-            button.addEventListener("click", function(event) {
-                btn = event.currentTarget;
-                btn.style.backgroundColor = 'blue';
-                btn.innerHTML = 'Thank you for your message!';
-})
-</script>
